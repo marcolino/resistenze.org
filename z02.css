@@ -1,0 +1,59 @@
+BODY{
+  color: #0000ff;
+  background-color: #ffffd0;
+  font-family: "Times New Roman"
+  font-size: 10pt;
+}
+H1{
+  font-size: 14pt;
+  letter-spacing: 0.08em;
+  margin-top: 0.02em;
+  margin-bottom: 0.02em;
+  color: #cd0000;
+}
+H2{
+  font-size: 14pt;
+  letter-spacing: 0.08em;
+  margin-top: 0.02em;
+  margin-bottom: 0.02em;
+  color: #0000ff;
+}
+H3{
+  font-size: 12pt;
+  letter-spacing: 0.04em;
+  margin-top: 0.02em;
+  margin-bottom: 0.02em;
+  color: #cd0000;
+}
+H4{
+  font-size: 11pt;
+  letter-spacing: 0.04em;
+  margin-top: 0.02em;
+  margin-bottom: 0.02em;
+  color: #0000ff;
+}
+H5{
+  font-size: 10pt;
+  margin-top: 0.02em;
+  margin-bottom: 0.02em;
+  color: #cd0000;
+}
+H6{
+  font-size: 10pt;
+  margin-top: 0.02em;
+  margin-bottom: 0.02em;
+  color: #0000ff;
+}
+A{
+  color: #0000ff;
+}
+A:VISITED{
+  color: #0000ff;
+}
+A:HOVER{
+  color: #ff0000;
+}
+A:ACTIVE{
+
+}
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+ <!-- PUBLIC "-//W3C//Dtd HTML 4.01 Frameset//EN" "http://www.w3.org/tr/html4/frameset.dtd"> -->
+<html lang="it">
+  <head>
+    <title>Resistenze.org sito del CCDP - Centro di Cultura e Documentazione Popolare</title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <!-- <meta charset="iso-8859-1"> -->
+    <meta name="description" content="Pagina principale desktop" />
+    <meta name="keywords" content="controinformazione, lavoro, territorio, politica, cultura, internazionalismo, anticapitalismo, antimperialismo, resistenza, libri, riviste, manifesti, video" />
+    <meta name="author" content="ccdp" />
+    <meta name="generator" content="a mano" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="css/main.min.css" type="text/css" media="screen">
+    <link rel="icon" type="image/x-icon" href="images/ziconcina.png">
+    <script type="text/javascript" src="js/main.min.js" defer></script>
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <div class="sidebar-head">
+        <div class="sidebar-title">
+          CATEGORIE
+        </div>
+        <button onclick="toggleSidebar()" class="button-none sidebar-close-button" title="chiudi" alt="chiudi"><img src="images/x-circle-thin-white-18x18.png" width="18" height="18" alt="chiudi"></a>
+      </div>
+
+      <div class="sidebar-news">
+        <div>TEMI RESISTENTI</div>
+        <div><a href="retecu.htm">Cultura e Memoria</a></div>
+      </div>
+      <div class="sidebar-news">
+        <div></div>
+        <div><a href="retepe.htm">Pensiero</a></div>
+      </div>
+      <div class="sidebar-news">
+        <div></div>
+        <div><a href="retepo.htm">Popoli</a></div>
+      </div>
+      <div class="sidebar-news">
+        <div></div>
+        <div><a href="retepr.htm">Proletari</a></div>
+      </div>
+
+      <div class="sidebar-news">
+        <div>OSSERVATORIO</div>
+        <div><a href="reos00.htm">Altre notizie dal mondo, europa, italia</a></div>
+      </div>
+
+      <div class="sidebar-news">
+        <div>SEGNALAZIONI RESISTENTI</div>
+        <div><a href="rese00.htm">Lettere, appuntamenti, recensioni&hellip;</a></div>
+      </div>
+
+      <div class="sidebar-news">
+        <div>MATERIALI RESISTENTI</div>
+        <div><a href="remadi.htm">Disponibili in linea</a></div>
+      </div>
+      <div class="sidebar-news">
+        <div></div>
+        <div><a href="/biblio">Biblioteca digitale <i>Mels</i></a></div>
+      </div>
+      <div class="sidebar-news">
+        <div></div>
+        <div><a href="remacv.htm">Consultabili in sede</a></div>
+      </div>
+      
+      <br />
+      
+      <div class="sidebar-news single">
+        <div><a href="reas00.htm">Conosci - contatta</a></div>
+      </div>
+      <div class="sidebar-news single">
+        <div><a href="../search/search.php">Ricerca nel sito</a></div>
+      </div>
+
+      <div class="donation">
+        <div>
+          <img src="images/zresistenze150.png" alt="resistenze.org logo" title="resistenze.org logo" width="150" height="65">
+        </div>
+        <div class="donation-text">
+          Sostieni Resistenze.org<br />
+          Fai una <a href="as/ccdp/ascc_contrdonaz.htm" target="asccdonaz" alt="donazione">donazione</a>,
+          <a href="as/ccdp/ascc_dona5xmille.htm" target="5x1000" alt="donazione">devolvi il 5x1000</a> al<br />
+          Centro di Cultura e Documentazione Popolare
+        </div>
+      </div>
+
+    </div>
+
+    <div class="head">
+      <div class="head-block">
+        <div class="head-title menu">
+          <button onclick="toggleSidebar()" class="button-none" title="menu categorie" alt="menu categorie"><img src="images/menu-18x28.png" width="18" height="28" alt="menu"></button>
+        </div>
+        <div class="head-title lato-bold">
+          NUOVE RESISTENTI
+        </div>
+        <div class="head-title book">
+          <!-- TODO            v => href="/" ... /> -->
+          <button onclick="location.href='/resistenze.org/sito2'" class="button-none" title="torna all'inizio" alt="torna all'inizio"><img src="images/zccdp-18x28.png" width="18" height="28" alt="logo"></button>
+        </div>
+      </div>
+
+      <div class="head-block">
+        <div class="head-number">
+          <button onclick="loadNumber('prev')" class="button-none" title="numero precedente" alt="numero precedente"><img src="images/arrow-left-16x16.png" width="16" height="16" alt="freccia a sinistra" class="arrow"></button>
+        </div>
+        <div class="head-number">
+          <div id="number"></div>
+        </div>
+        <div class="head-number">
+          <button onclick="loadNumber('next')" class="button-none" title="numero seguente" alt="numero seguente"><img src="images/arrow-right-16x16.png" width="16" height="16" alt="freccia a destra" class="arrow"></button>
+        </div>
+      </div>
+
+      <div class="head-block">
+        <div class="head-date">
+          <div id="date" title="data di pubblicazione"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="contents" class="contents">
+
+    </div>
+  </body>
+</html>
