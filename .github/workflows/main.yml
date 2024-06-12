@@ -42,7 +42,7 @@ jobs:
         remote-protocol: "sftp"
         remote-host: "win.resistenze.org"
         remote-user: "236291@aruba.it"
-        remote-password: "!Pisa340.23"
+        remote-password: ${{ secrets.FTP_PASSWORD_RESISTENZE_ORG }}
         #ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
         remote-path: "/resistenze.org/sito3"
         local-path: "./"
