@@ -35,6 +35,9 @@ jobs:
     - name: Minify css and js
       run: tools/minify.sh
 
+    - name: Check current IP
+      run: curl ipinfo.io
+
     - name: 📂 Sync files
       # uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       uses: milanmk/actions-file-deployer@master
@@ -43,7 +46,6 @@ jobs:
         remote-host: "win.resistenze.org"
         remote-user: "236291@aruba.it"
         remote-password: ${{ secrets.FTP_PASSWORD_RESISTENZE_ORG }}
-        #ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
         remote-path: "/resistenze.org/sito3"
         local-path: "./"
 
