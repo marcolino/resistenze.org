@@ -5,7 +5,7 @@
 PAGE_LOGIN="https://admin.aruba.it/PannelloAdmin/Login.aspx"
 PAGE_DOMAIN_CHOOSE="https://admin.aruba.it/PannelloAdmin/LoginDomain.aspx?Lang=IT"
 USERNAME='236291@aruba.it'
-PASSWORD='!Pisa340.24'
+PASSWORD='******'
 
 # login
 # curl \
