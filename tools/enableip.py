@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 login_page = 'https://admin.aruba.it/PannelloAdmin/Login.aspx'
 username = '236291@aruba.it'
-password = '!Pisa340.24'
+password = '******'
 
 # step 1: fetch the login page
 session = requests.Session()
